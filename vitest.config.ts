@@ -10,6 +10,19 @@ export default defineConfig({
       styles: '/src/styles',
       components: '/src/components',
       '@': '/src'
-    }
+    },
+    exclude: [
+      '**/node_modules/**',
+      '**/dist/**',
+      '**/build/**',
+      '**/coverage/**',
+      '**/public/**',
+      '**/src/**/__tests__/**',
+      '**/src/**/__mocks__/**',
+      '**/src/**/__fixtures__/**',
+      '**/src/**/__helpers__/**',
+      '**/src/**/__stories__/**',
+      '**/src/**/__snapshots__/**'
+    ]
   }
 })
