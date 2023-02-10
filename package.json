@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gen": "yarn plop --plopfile generators/plopfile.js",
+    "gen": "plop --plopfile generators/plopfile.js",
     "test": "vitest",
     "cover": "vitest run --coverage",
     "prepare": "husky install"
@@ -15,15 +15,15 @@
   "prepare": {
     "husky": {
       "hooks": {
-        "pre-commit": "yarn lint && yarn test"
+        "pre-commit": "npm run lint && npm run test"
       }
     }
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
-    "next": "^13.0.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/react": "^13.4.0",
@@ -33,7 +33,7 @@
     "@vitejs/plugin-react": "^2.2.0",
     "@vitest/coverage-c8": "^0.25.3",
     "eslint": "8.29.0",
-    "eslint-config-next": "13.0.6",
+    "eslint-config-next": "^13.1.6",
     "husky": "^8.0.2",
     "jsdom": "^20.0.3",
     "plop": "^3.1.1",
