@@ -6,14 +6,17 @@ export const globalStyles = globalCss({
     padding: 0,
     boxSizing: 'border-box'
   },
+
   html: {
     scrollBehavior: 'smooth'
   },
+
   body: {
-    backgroundColor: '$gray900',
-    color: '$gray300',
-    fontFamily: 'Roboto, sans-serif',
-    fontWeight: 400
+    fontFamily: '$roboto',
+    '-webkit-font-smoothing': 'antialiased',
+
+    color: '$gray50',
+    backgroundColor: '$gray900'
   },
 
   'a, button': {
