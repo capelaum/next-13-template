@@ -15,7 +15,8 @@
   "prepare": {
     "husky": {
       "hooks": {
-        "pre-commit": "pnpm lint && pnpm test"
+        "pre-commit": "pnpm lint && pnpm test",
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
       }
     }
   },
@@ -26,6 +27,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
     "@testing-library/react": "^13.4.0",
     "@types/node": "18.11.10",
     "@types/react": "18.0.26",
