@@ -9,7 +9,7 @@ export default defineConfig({
     alias: {
       styles: '/src/styles',
       components: '/src/components',
-      '@': '/src'
+      '~': '/src'
     },
     exclude: [
       '**/node_modules/**',
