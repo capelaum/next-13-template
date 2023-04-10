@@ -22,13 +22,14 @@
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
-    "next": "^13.2.4",
+    "next": "^13.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "@testing-library/react": "^13.4.0",
     "@types/node": "18.11.10",
     "@types/react": "18.0.26",
@@ -36,7 +37,7 @@
     "@vitejs/plugin-react": "^3.1.0",
     "@vitest/coverage-c8": "^0.25.8",
     "eslint": "8.29.0",
-    "eslint-config-next": "^13.2.4",
+    "eslint-config-next": "^13.3.0",
     "husky": "^8.0.3",
     "jsdom": "^20.0.3",
     "plop": "^3.1.2",
