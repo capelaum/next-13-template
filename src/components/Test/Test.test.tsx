@@ -8,11 +8,11 @@ describe('<Test />', () => {
     const { container } = render(<Test />)
 
     const heading = within(
-      screen.getByRole('heading', { name: /Test change/i })
+      screen.getByRole('heading', { name: /Test change/i }),
     )
 
     expect(heading).toBeDefined()
 
-    // expect(container.firstChild).toMatchSnapshot()
+    expect(container.firstChild).toMatchSnapshot()
   })
 })

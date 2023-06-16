@@ -4,11 +4,11 @@ export const globalStyles = globalCss({
   '*': {
     margin: 0,
     padding: 0,
-    boxSizing: 'border-box'
+    boxSizing: 'border-box',
   },
 
   html: {
-    scrollBehavior: 'smooth'
+    scrollBehavior: 'smooth',
   },
 
   body: {
@@ -16,11 +16,11 @@ export const globalStyles = globalCss({
     '-webkit-font-smoothing': 'antialiased',
 
     color: '$gray50',
-    backgroundColor: '$gray900'
+    backgroundColor: '$gray900',
   },
 
   'a, button': {
     cursor: 'pointer',
-    border: 'none'
-  }
+    border: 'none',
+  },
 })
